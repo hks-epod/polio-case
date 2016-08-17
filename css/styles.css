@@ -114,3 +114,18 @@ figcaption {
 	font: 200 18px/25px 'Garamond', serif;
 }
 
+.widget-header p {
+	font-style: italic;
+}
+
+.h-divider{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:1px;
+	width:100%;
+	border-top:1px solid rgb(150,150,150);
+}
+
+th {
+	border:none !important;
+}
