@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/simple-sidebar.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:300,400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <title>BCURE case study: Polio project</title>
+</head>
+<body>
+
+<!-- No header! -->
+<div id="wrapper">
+
+<!-- Sidebar -->
+  <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a href="http://epod.cid.harvard.edu/" target="_blank"><img alt="EPoD logo" src="img/logo.png" class="img-sidebar"></a>
+          </li>
+          <div id="sidestyle">
+            <li>
+                <a href="#top">Intro</a>
+            </li>
+            <li>
+                <a href="#polio">Polio: The last mile</a>
+            </li>
+            <li>
+                <a href="#bottlenecks">Bottlenecks</a>
+            </li>
+            <li>
+                <a href="#intertemporal">Intertemporal preferences</a>
+            </li>
+            <li>
+              <a href="#results">Results</a>
+            </li>
+            <li>
+              <a href="#next">Next steps</a>
+            </li>
+            <li>
+              <a href="#opening">Opening up data, big and small</a>
+            </li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li>
+              <a href="https://www.gov.uk/government/organisations/department-for-international-development"><img src="img/UKaid.png" alt="UKaid" width="50px"></a>
+            </li>
+            <li>
+              <div class="small-caption">
+              <br>
+                <p>Based on a project which was partly funded by UK aid. All photographs, unless otherwise indicated, copyright Evidence for Policy Design.</p> 
+                <p>If you have questions or comments, please <a href="mailto:EPoD@hks.harvard.edu">contact us.</a></p>    
+              </div>
+            </li>
+          </div>
+      </ul>
+  </div>
+<!-- end sidebar -->
+
+<!-- Main story -->
+<div id="page-content-wrapper">
+
+
+<div class="container-fluid test">
+  <div class="row">
+      <h1>BCURE Case: Motivating public servant performance in Punjab, Pakistan</h1>
+      <hr>
+      <h5>by <a href="http://epod.cid.harvard.edu/">Evidence for Policy Design</a></h5>
+      <h5><span id="datetime">August 2016</span></h5>
+
+  <img src="img/img0.jpg" class="img-body" alt="Polio vaccine.">
+  
+    <section class="col-sm-8 introduction">
+      <p><small>© 2015 Uttam Kamati, Courtesy of Photoshare</small></p>    
+
+      <br>
+      <p>In 2014, roving health workers swept through neighbourhoods in Lahore, Pakistan on a drive to achieve complete immunization in one of polio’s last remaining bastions. Meanwhile, their managers struggled to track their progress using antiquated methods.</p> 
+
+      <p>In this context, an intervention using a simple mobile phone app designed to monitor the location and tempo of the vaccinations seems to have accomplished a complex set of tasks. It motivated higher performance among employees, opened information flows between them and their managers, and charted geographical progress in the drive. </p>
+
+      <p>This case study explains how a relatively simple tool – adaptable far beyond the realm of public health by leveraging insights from behavioural economics and management science – can overcome information bottlenecks between government actors, resulting in better service delivery for the poor. </p>
+
+    </section>
+
+    <section class="col-sm-8">
+      <h2 id="top">The puzzle of incentivizing public servants</h2>
+      
+      <p>Pay scales in government jobs tend to be relatively flat, and incentive programmes modest.</p>
+      
+      <p>The rationale is sound: policies that grant managers too much discretion in doling out sweet positions and big bonuses give them opportunities to indulge in corruption and cronyism. And so, broadly speaking, public-sector employees receive uniform incremental pay raises year by year while their private-sector counterparts take part in dynamic incentive programmes and compete for performance-based raises. </p>
+      
+      <p>In a textbook example of an unintended consequence, this widespread governmental practice designed to solve problems in one area causes problems in another: public servants often have less incentive to excel than private-sector employees. Too often, the end product is deplorable public service delivery, particularly in developing-country contexts with weak monitoring and accountability systems. A large-scale <a href="http://siteresources.worldbank.org/INTPUBSERV/Resources/477250-1187034401048/ChaudhuryandothersMIA.pdf" target="_blank">World Bank study</a> published in 2006 used unannounced visits to measure public-sector employee attendance in six developing countries on three continents, and found that on average 19 percent of teachers and 35 percent of health workers were absent.</p>
+      
+      <p>Over the past two decades, governments and researchers have explored a <a href="http://scholar.harvard.edu/files/rpande/files/the_personnel_economics_of_the_state.pdf" target="_blank">wide range of policy tools</a> to incentivize better performance among public servants in ways that cannot be gamed. These have included innovative monitoring techniques and methods to screen candidates with the right type of intrinsic motivations for public service.</p>
+      
+      <p>Incentive programmes, such as pay for performance (P4P), have shown promise too, particularly in public health. These programmes have resulted in better preventative care for toddlers in Rwanda and reduction of anaemia in schoolchildren in China. In realms outside health care, P4P programmes have resulted in higher revenue collection among tax inspectors in Pakistan and higher classroom test-score averages among teachers in India. (See Box #1.)</p>
+
+      <div id="widget">
+        <table class="table" id="widgetTable">
+          <th id="rwanda">
+            <p>Rwanda</p> 
+            <p><img src="img/image00.jpg" alt="Rwanda" width=50></p>
+            <p><em>Maternal and child health</em></p>
+            </th>
+          <th id="china">
+            <p>China</p>
+            <p><img src="img/image02.jpg" alt="China" width=50></p>
+            <p><em>Anaemia in school children</em></p>
+            </th>
+          <th id="indonesia">
+            <p>Indonesia</p>
+            <p><img src="img/image01.jpg" alt="Indonesia" width=50></p>
+            <p><em>Community health</em></p>
+          </th>
+          <th id="pakistan">
+            <p>Pakistan</p>
+            <p><img src="img/image04.jpg" alt="Pakistan" width=50></p>
+            <p><em>Tax revenues</em></p>
+          </th>
+          <th id="india">
+            <p>India</p>
+            <p><img src="img/image03.jpg" alt="India" width=50></p>
+            <p><em>Test scores among children</em></p>
+          </th>
+
+        </table>
+
+      <div class="rwanda widgetText">
+        <p><b>Rwanda</b></p>
+        <p><b>Method</b>: RCT</p>
+        <p><b>Sample size</b>: 116 health facilities in 19 districts</p>
+        <p><b>Date</b>: 2006, published 2011</p>
+        <p><b>Results</b>: Treatment group facilities showed a 23% increase in the number of deliveries conducted by professionals in a clinical setting. Preventive care visits increased by 56% for children 23 months or younger, and by 132% for children aged 24–59 months.</p>
+        <p><b>Caveat</b>: No change in the probability women received any prenatal care or had more than 4 prenatal care visits.</p>
+        <p><b>Read more</b>: 
+          <ul>
+            <li><a href="https://secure.jbs.elsevierhealth.com/action/consumeSsoCookie?redirectUri=http%3A%2F%2Fwww.thelancet.com%2Faction%2FconsumeSharedSessionAction%3FSERVER%3DWZ6myaEXBLGliB%252BRW%252F74SA%253D%253D%26MAID%3DJv%252BCn9Bd8A6TgogW%252BxXJfA%253D%253D%26JSESSIONID%3DaaaYHa0JuRW53f6p_Z-yv%26ORIGIN%3D365142248%26RD%3DRD&acw=&utt=" target="_blank">Basinga et al. 2011</a></li>
+            <li><a href="http://millionssaved.cgdev.org/case-studies/rwandas-pay-for-performance-scheme-for-health-services" target="_blank">Center for Global Development</a></li>
+            <li><a href="http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTHEALTHNUTRITIONANDPOPULATION/EXTHSD/0,,contentMDK:22464285~menuPK:2643760~pagePK:64020865~piPK:149114~theSitePK:376793,00.html" target="_blank">World Bank</a></li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="china widgetText">
+        <p><b>China</b></p>
+        <p><b>Method</b>: RCT</p>
+        <p><b>Sample size</b>: 3,553 students aged 9–11 in 72 primary schools in Northwest China</p>
+        <p><b>Date</b>: 2009–11, published 2012</p>
+        <p><b>Results</b>: School principals received bonuses for every student who changed from anaemic to non-anaemic. The treatment reduced anaemia compared with the pure control group by about 23%.</p>
+        <p><b>Caveat</b>: Incentivized school principals were more likely to use subsidies for iron-focused supplements, whereas non-incentivized school principals used subsidies for supplements that could affect both iron and overall calorie intake.</p>
+        <p><b>Read more</b>: 
+          <ul>
+            <li><a href="http://www.bmj.com/content/345/bmj.e4809" target="_blank">Miller et al. 2012</a></li>
+            <li><a href="http://www.3ieimpact.org/media/filer_public/2012/06/05/ts-9-file-3.pdf" target="_blank">International Initiative for Impact Evaluation (3ie)</a></li>
+            <li><a href="http://reap.fsi.stanford.edu/research/paying_for_performance_ii_the_cost_effectiveness_of_strategies_to_combat_anemia_in_china" target="_blank">REAP, Stanford University</a></li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="indonesia widgetText">
+        <p><b>Indonesia</b></p>
+        <p><b>Method</b>: RCT</p>
+        <p><b>Sample size</b>: of 3,100 villages receiving community-based block grants, a subset received incentives based on performance on health, nutrition and education indicators</p>
+        <p><b>Date</b>: 2007–09, published 2014</p>
+        <p><b>Results</b>: 8 targeted health indicators were about 0.04 standard deviations higher in treatment areas compared to control. These effects were about twice as large in areas with low initial levels of performance. The main health reduction was a 15% decline in malnutrition rates.</p>
+        <p><b>Caveat</b>: Malnutrition effects became more muted over time, and the relative gain of incentivized to non-incentivized areas declined over time as non- incentivized areas improved.</p>
+        <p><b>Read more</b>: 
+          <ul>
+            <li><a href="https://www.aeaweb.org/articles?id=10.1257/app.6.4.1" target="_blank">Olken et al. 2014</a></li>
+            <li><a href="https://www.povertyactionlab.org/evaluation/project-generasi-conditional-community-block-grants-indonesia" target="_blank">Abdul Latif Jameel Poverty Action Lab</a></li>
+            <li><a href="http://documents.worldbank.org/curated/en/977061468040587207/Should-aid-reward-performance-evidence-from-a-field-experiment-on-health-and-education-in-Indonesia;jsessionid=aXy4s8x1guZ5MkPm84NSboBx" target="_blank">World Bank</a></li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="pakistan widgetText">
+        <p><b>Pakistan</b></p>
+        <p><b>Method</b>: RCT</p>
+        <p><b>Sample size</b>: all 482 property tax units in Punjab province</p>
+        <p><b>Date</b>: 2011–13, working paper 2014</p>
+        <p><b>Results</b>: Treated areas had a 46% higher growth rate in tax revenue, and a subgroup that rewarded on revenue saw a 62% higher growth rate. The revenue gains substantially exceeded the costs of the incentives.</p>
+        <p><b>Caveat</b>: Bribe rates increased in incentive areas, possibly to compensate incentivized tax inspectors for foregone incentive payments.</p>
+        <p><b>Read more</b>: 
+          <ul>
+            <li><a href="http://qje.oxfordjournals.org/content/early/2015/10/30/qje.qjv042.abstract" target="_blank">Khan et al. 2014</a></li>
+            <li><a href="https://www.hks.harvard.edu/centers/cid/programs/evidence-for-policy-design/research-policy/policy-research-engagements/property-tax-experiment" target="_blank">Evidence for Policy Design</a></li>
+            <li><a href="https://www.povertyactionlab.org/fr/evaluation/property-tax-experiment-punjab-pakistan-testing-role-wages-incentives-and-audit-tax-inspe" target="_blank">Abdul Latif Jameel Poverty Action Lab</a></li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="india widgetText">
+        <p><b>India</b></p>
+        <p><b>Method</b>: RCT</p>
+        <p><b>Sample size</b>: 500 schools in 5 districts in Andhra Pradesh</p>
+        <p><b>Date</b>: 2004–2007, published 2011</p>
+        <p><b>Results</b>: After 2 years, students in incentivized schools had test scores 0.27 standard deviations higher in math and 0.17 in language. Effects were even stronger after 5 years: 0.54 SDs higher in math and 0.35 in language. Students also did better in non-incentivized subjects.</p>
+        <p><b>Caveat</b>: No evidence of any adverse consequences of the program.</p>
+        <p><b>Read more</b>: 
+          <ul>
+            <li><a href="http://www.journals.uchicago.edu/doi/abs/10.1086/659655" target="_blank">Muralidharan and Sundararaman 2011</a></li>
+            <li><a href="https://www.povertyactionlab.org/evaluation/teacher-performance-pay-andhra-pradesh-india" target="_blank">Abdul Latif Jameel Poverty Action Lab</a></li>
+            <li><a href="http://datatopics.worldbank.org/hnp/files/edstats/INDcas10.pdf" target="_blank">World Bank</a></li>
+            <li><a href="http://www.ideasforindia.in/article.aspx?article_id=119" target="_blank">Ideas For India</a></li>
+          </ul>
+        </p>
+      </div>
+
+      </div>
+
+      </section>
+      
+      <section class="col-sm-8">
+
+      <p>The challenge is that P4P depends on quality information flowing between government actors: for the system to work, accurate data on worker performance must reach managers. Researchers often supply and maintain the necessary data infrastructure in the context of impact evaluations, but the risk is that once the programme is scaled up and the researcher moves on to the next project, the system breaks down or falls prey to tampering.</p>
+
+      <p>A further challenge is that the system must be relatively simple to implement or it will defeat its own purpose. Every minute a nurse spends filling out paperwork to get a bonus is a minute not spent treating patients.</p>
+
+      <p>These challenges multiply when the health worker is not stationed in a clinic, but roving neighbourhoods on a vaccination drive. How do you create a swift, portable, easy-to-use system that motivates health worker performance without giving them opportunities to cheat?</p>
+      
+      <p>There’s an app for that.</p>
+
+      <p>In 2014 a pilot programme in Pakistan, part of the <a href="https://bcureglobal.wordpress.com/" target="_blank">Building Capacity to Use Research Evidence (BCURE) program</a> funded by UK Aid, helped to test an innovative system that channeled a number of forces for improved coverage in a polio vaccination drive: bonuses, monitoring, geographical mapping, and manipulation of workers’ intertemporal preferences (we’ll explain). The project brought together officials from the Punjab health ministry, researchers from <a href="http://epod.cid.harvard.edu/">Evidence for Policy Design (EPoD)</a> based at Harvard Kennedy School, and colleagues from the International Growth Centre, UC San Diego, and the University of Southern California.</p>
+
+      <p>Taking a close look at the project not only showcases an exciting new tool with applications far beyond public health; it reveals the critical importance of the exchange of quality information in optimizing service delivery in developing countries.</p>
+
+
+  </section>
+
+    <img src="img/IMG_0677.jpg" class="img-body" alt="House that has been vaccinated.">
+
+    <section class="col-sm-8">
+    <h2 id="polio">Polio: the last mile</h2>
+  
+    <p>In the early 2000s, the world seemed on the verge of eradicating polio once and for all. Between 1988 and 2013 the number of cases went from <a href="http://www.who.int/features/qa/07/en/" target="_blank">350,000 to 416</a>, and the number of countries in which the disease was endemic went from <a href="http://www.who.int/mediacentre/factsheets/fs114/en/" target="_blank">125 to 3</a>. But in 2013–14 there was an increase in new cases. Of these, <a href="http://www.vox.com/2014/5/7/5688112/why-polio-is-on-the-rise-again" target="_blank">85 percent</a> were in Pakistan. According to the World Health Organization, cases were crossing the border from Pakistan into Afghanistan, and strains of the virus that originated in Pakistan were found as far afield as <a href="http://www.nytimes.com/2013/01/24/health/egypt-polio-virus-is-found-in-cairos-sewers.html?_r=0" target="_blank">Egyptian sewers</a>. It seems that Pakistan’s faltering vaccination campaign is the chink in the world’s armour against the disease – troubling, because as long as one child has polio, there is a risk of renewed outbreak.</p>
+
+    <!-- Graph of polio cases from Dawn -->
+
+    <p>As EPoD’s Michael Callen wrote in a post on <a href="http://theconversation.com/could-a-smartphone-app-help-stop-the-next-polio-outbreak-in-pakistan-49487" target="_blank">The Conversation</a>, an academic journalism blog,</p>
+      <blockquote>The reason Pakistan was having so much trouble didn’t come down to having enough doses of the vaccines or health workers to administer them – the country did. A key problem was that information about who was getting vaccinated wasn’t getting collected, and that the incentives health workers got didn’t actually motivate them to perform more vaccinations.</blockquote>
+
+    <p>The health ministry conducted repeated vaccination sweeps without alleviating the disease. The result was that some children were immunized several times over and others, in small pockets isolated by geography or violence, not at all.</p>
+
+    <h2 id="bottlenecks">Bottlenecks</h2>
+
+    <p>A metaphor from engineering comes in handy here: when one part of a machine causes a backup that threatens the functioning of the whole apparatus, it is called a “bottleneck.” The effects of one simple clogged artery can be catastrophic, and it is of utmost importance to pinpoint the problem and not mistake it for a migraine or a dizzy spell. In all kinds of design from machines to policies, it is important to identify bottlenecks and avoid mistaking their effects for a more pervasive, less localized problem.</p> 
+    
+    <p>Callen and <a href="http://www.nber.org/people/yasir_khan" target="_blank">Yasir Khan</a> of the International Growth Centre had done a number of studies on how innovative management techniques and new technologies could open up information bottlenecks and improve outcomes in the public sector. In one study conducted with <a href="http://www.nber.org/people/saad_gulzar" target="_blank">Saad Gulzar</a> and <a href="http://www.nber.org/people/arman_Rezaee" target="_blank">Arman Rezaee</a>, they had looked at ways to improve the deplorable attendance rate of employees in health centres in Punjab, and observed that attendance data was not making its way up the chain of command due to collusion among workers, and also due to outdated, paper-based record-keeping. They <a href="http://www.nber.org/papers/w21180" target="_blank">showed</a> that public servants with a certain combination of traits, as measured by psychological personality tests, were less likely to collude and more likely to respond positively to improved attendance monitoring via smartphones. In this case, opening up an information bottleneck shows great promise to improve outcomes for millions, at a relatively low cost.</p>
+
+    </section>
+
+    <img src="img/image04.png" class="img-body" alt="Old map.">
+
+    <section class="col-sm-8">
+
+    <p>For some of the same reasons, Pakistan’s faltering vaccination program can be viewed as a series of bottlenecks. Information on the performance of individual vaccinators was not reaching their managers; information on who has been vaccinated was not reaching the government. As a result, Pakistan itself was a bottleneck for the international campaign to end polio.</p>
+
+    <p>The first leg of the pilot project focused on helping get data about health worker performance to their managers, and helping managers use that information to improve performance.</p>
+
+    </section>
+
+    <img src="img/IMG_0726.JPG" class="img-body" alt="Old record sheet.">
+
+    <section class="col-sm-8">
+    
+    <p>In the status quo vaccination efforts, four or five roving teams of Lady Health Workers, or LHWs, worked to vaccinate a neighbourhood. They used paper maps like the one above, recorded their efforts on paper forms like the one on the left, and employed a protocol of writing in chalk on the walls of houses to indicate to other teams they had been there. For an independent monitor to check up on a team’s efforts, she would have had to physically follow their footpath through the neighbourhood and read the chalk marks. </p>
+
+    <p>It was a difficult job; the monitoring systems were weak, and the pay low. Such factors conspired to create a situation where health workers often failed to achieve their targets, but reported that they had. Callen explains: “They weren’t being paid to meet the target, they were being told, <em>You need to meet the target</em>. So every single worker said they had met it. If you’re being explicitly paid to meet a target where no one can verify how much work is being done, then of course you’re going to say you’ve succeeded.” This was a situation ripe for P4P incentives, but this was impossible as long as information stagnated in antiquated, paper-based systems. </p>
+
+    <h2 id="intertemporal">Intertemporal preferences</h2>
+      
+    <p>The research team and their counterparts at the health ministry developed a three-fold plan. They distributed cheap smartphones to the health workers so they could send geo-coded information about their activities to a centralized dashboard, they tripled their performance-based bonuses, and they instituted a new incentive structure. </p>
+
+    <p>That third component was the one of greatest interest to academics, because it worked in a new way with the <em>intertemporal preferences</em> of the workers. A quick look at the concept may reveal its importance.</p>
+
+    </section>
+
+    <section class="col-sm-3 pull-right aside">
+      <div>
+        <button type='button' 
+                class='btn btn-lg' 
+                data-placement='left' 
+                data-toggle='popover'
+                data-html='true' 
+                title='Sidebar: Evidence Champions'
+                data-content='
+                  <p>In many developing-country contexts, it is a challenge to get policymakers to understand and require rigorous evaluation. However, the polio project benefited from collaboration with three highly engaged public servants, committed to rigorous evaluation: Rashid Langrial, the former Commissioner of Lahore; Muhammad Usman, the District Coordinating Officer Lahore; and Zulfiqar Ali, the Executive District Officer Health Lahore.</p>
+
+                '>Evidence champions. <span class="glyphicon glyphicon-new-window"></span>
+
+        </button>
+      </div>
+    </section>
+
+      
+    <section class="col-sm-8">
+    
+    <p>A major contribution of behavioural economics – that marriage of economics and psychology put terms such as “<a href="http://www.indiebound.org/book/9780143115267" target="_blank">nudge</a>” and “<a href="http://www.indiebound.org/book/9780374533557" target="_blank">fast versus slow thinking</a>” into the popular lexicon – is that it acknowledges that people don’t always behave rationally (an assumption of classic economic models) and attempts to measure and predict their <em>irrational</em> behaviour. </p>
+
+    <p>People’s preferences often change over time in a way that is irrational – we are willing to pay more for a sofa set if the instalments start next January than if instalments start tomorrow. Similarly, health workers are more ambitious about the number of vaccinations they will accomplish next week than the ones they will do today. But procrastination in the face of distant targets or cramming to meet a deadline creates inefficiencies, inaccuracies, and reasons to cheat.</p>
+
+    <p>The team tested a system in which, in order to get that big bonus, the health workers used a custom-designed smartphone app to set their targets for days one and two of the vaccination campaign. The incentive structure expected workers to complete roughly 300 vaccinations over the campaign, and penalized them for moving tasks from day one to day two. The workers recorded their goals, along with all attempted vaccinations, in the app. Information about actual vaccinations was aggregated in a central server and sent to an online portal that visualized the data for policymakers’ use, identifying whether or not the targets were being met. If a worker met the targets she set in advance for the first two days of the campaign, she got her bonus.</p>
+
+    <p>A key advantage is this: in making her bid, then recording her actual activity, the health worker let the app know how much she was willing to sacrifice to procrastinate. This allowed the team to tailor incentives individually to her, then apply them in the second round of the campaign. The system gave the worker a degree of control over her activity (not to mention the chance for a bonus), and increased and evened out her effort in a way specific to her alone. All the while, it gave her manager the ability to track her and her co-workers’ progress toward vaccination goals in real time. All of this, according to the team’s calculations, would cost around the same as existing systems, once implemented at scale. </p>
+
+    <p>They piloted the system among 505 workers, divided into different treatments and control groups in a randomized trial.</p>
+
+    <!-- Stopped at 'Results' -->
+    <h2 id="results">Results</h2>
+    <ul>
+      <li>The trial showed that this system can bridge the pay-for-performance information gap very quickly.</li>
+      <li>Data from the mobile phones showed that a performance bonus encouraged workers to complete 15 to 17 percent more vaccinations than workers that were just being monitored and not positively incentivized.</li>
+      <li>The system gave management better monitoring tools.</li>
+      <li>Tailoring vaccinations according to personal preferences increased the likelihood of adopting a more balanced schedule by 33 percent.</li>
+      <li>In the few cases where parents didn’t allow their children to be vaccinated, the online dashboard allowed policymakers to identify those households for follow-up.</li>
+    </ul>
+
+    <p>Influenced by the team’s idea, the government scaled up the technology under the banner of Punjab Information Technology Board (PITB) and implemented the smartphone application in the whole of Punjab. This is a very welcome move, as the PITB has scaled up other monitoring innovations presented by team members in the past – to good effect. </p>
+
+    <h2 id="next">Next steps</h2>
+
+    <p>The BCURE pilot project is complete, but the research continues under separate funding. And although the number of polio cases has dropped again, the disease remains endemic in Pakistan and Afghanistan – the last two remaining pockets in the world.</p>
+
+    <p>High-resolution data collected to incentivize workers may be applicable to another purpose. “In some regards, health officials really are operating in an information vacuum,” Callen explains. “They know which cities have had drives and which cities haven’t had drives, but they don’t know which neighbourhoods within the city have had drives. They know numbers of vaccinations, but they don’t have geospatial information.” In several upcoming vaccination drives, researchers will use data to make a map of a given area, understand why certain pockets are unvaccinated, and formulate a pay gradient that will incentivize workers to fill in those gaps. For example, the city-level map below draws the standard distance circle for each worker, showing that vaccinators tend to work within a small area and leave whole neighbourhoods unvisited.</p>
+
+    <p>The bottom map, showing a closer view of a specific neighbourhood, reveals a pattern of unvisited city blocks.</p>
+   </section>
+
+  <img src="img/image06.png" class="img-body" alt="Map #1.">
+  <img src="img/image00.png" class="img-body" alt="Map #2.">
+  
+    <section class="col-sm-8">
+    
+    <p>Callen and his team intend to use the maps, not only to encourage better coverage, but also to test how policymakers use research evidence. As part of the Assessment activity of the BCURE programme, Callen and EPoD co-director Asim Khwaja have been experimenting with presenting civil servants at Pakistan’s National School of Public Policy with research evidence and testing how they update their opinions. Laboratory exercises can only tell them so much, however. “What we want to do is figure out, how does providing policymakers with real information change how they take real action?” says Callen. “Imagine going to the guy in the health ministry whose job it is to guarantee vaccination, giving him a map and saying, <em>Here’s where vaccinations have happened hundreds of times, here’s where they haven’t happened at all – now you redeploy your resources accordingly.</em> Then measuring the outcome.” </p>
+
+    <p>Such a test could reveal the extent to which policymakers use research evidence in the real world, and suggest ways to increase such use.</p>
+
+    <h2 id="opening">Opening up data, big and small</h2>
+
+    <p>Projects like the one conducted in Lahore can begin to fill in a problematic gap in development – the one between big datasets and their usability. The promise of big data, once freed, is undeniable: the world is seeing a remarkable revolution not only in the amount of data available, but also in the ease with which it can be rapidly and cheaply collected. Yet <button type='button' 
+                class='btn btn-link btn-inline' 
+                data-placement='bottom' 
+                data-toggle='popover'
+                data-html='true' 
+                data-content='
+                  <p><a href="https://www.washingtonpost.com/blogs/monkey-cage/wp/2015/04/28/using-opinion-surveys-to-monitor-the-u-n-s-sustainable-development-goals/" target="_blank">Pippa Norris</a> has written on the need to "triangulate" big data with more focused measures to track development; <a href="https://www.theguardian.com/global-development-professionals-network/2015/jun/22/why-we-shouldnt-get-too-excited-about-using-big-data-for-development" target="_blank">Paul Jasper</a> on the security risks involved, and remembering the still-huge undigitized population; <a href="https://www.theguardian.com/global-development-professionals-network/2015/jul/13/big-small-data-global-development" target="_blank">Daniella Ballou-Aares and Tony Pipa</a> on the financial investment required; <a href="https://www.washingtonpost.com/blogs/monkey-cage/wp/2015/07/20/data-poverty-makes-it-harder-to-fix-real-poverty-thats-why-the-un-should-push-countries-to-gather-and-share-data/" target="_blank">Rohini Pande and Florian Blum</a> on the political economy considerations involved; and <a href="https://www.thenation.com/article/big-data-actually-reinforcing-social-inequalities/" target="_blank">Michelle Chen</a> on ways that big data can reinforce social inequalities – to name just a few.</p>
+
+                '>several prominent researchers <span class="glyphicon glyphicon-new-window"></span>
+
+        </button> have sensibly argued that big data can only weigh in on big questions when accompanied by “small data,” usually in the form of targeted surveys, to add nuance. </p>
+
+        <p>By design, the app created for this pilot project passively collects data for the express purpose of being useful for policy. If such use of targeted use of data becomes widespread, it can provide another bridge between big and small data. </p>
+
+        </section>
+
+        <section class="col-sm-8">
+
+        <p>The results, along with those from several other pilot projects under the BCURE umbrella, show that gathering small data in developing countries can be done easily on the ground to improve the implementation of programs in real time. This not only opens opportunities to more effectively identify problems: it also increases, perhaps substantially, the number of options available for dealing with them. The passive analysis of data is vital, but there are now new doors for the active design of systems and incentives based on the possibilities opened by new data technologies. </p>
+
+        <p>In the polio project, the team successfully tailored pay-for-performance contracts to specific individuals based on what data revealed about their past decisions. The project showed that increasing the flow of data can not only add to what we know about the world, it can give us more options to improve it. &#9632; </p>
+
+        </section>
+
+      <section class="col-sm-3 pull-right aside">
+      <div>
+        <button type='button' 
+                class='btn btn-lg' 
+                data-placement='left' 
+                data-toggle='popover'
+                data-html='true' 
+                data-content='
+                  <blockquote>
+                    <p>New policies and new information can be intelligently targeted at civil servants who are identified by personality tests as more intrinsically motivated. Such policies might provide useful complements to more traditional strategies - such as increasing worker monitoring or performance incentives - and provide the basis for additional, cost-effective policies for better public health.</p>
+
+                    <footer>Michael Callen and Arman Rezaee, <em>How can personality tests improve the health service in Pakistan</em>, <a href="https://www.theguardian.com/global-development-professionals-network/2014/sep/09/personality-test-public-health-pakistan" target="_blank">The Guardian</a>, 9 September 2014</footnote>
+                    </blockquote>
+
+                '>New policies, new information <span class="glyphicon glyphicon-new-window"></span>
+
+        </button>
+      </div>
+    </section>        
+
+    <section class="col-sm-8">
+
+    <br>
+    <p>Text by V. McIntyre. Design by Angela Ambroz.</p> 
+    </section>
+
+  </div> <!-- row -->
+</div> <!-- container -->
+
+
+</div> <!-- #page-content-wrapper -->
+</div> <!-- #wrapper -->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
