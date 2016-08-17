@@ -41,23 +41,66 @@ $(document).ready(function() {
 	$(idNames.join()).css('cursor', 'pointer');
 	
 	// Hmm, for loop doesn't work here
+	// Edit by Eric Dodge:
+	// Need to remove all the info from the non-clicked classnames before toggling, 
+	// or else we will get multiple countries' worth of info appended to the popover box.
 	$('#rwanda').click(function() {
+		var tempNames = [];
+		var tempString = '.'+this.id;
+		for (var i=0;i<classNames.length;i++) {
+			if (classNames[i]!==tempString) {
+				tempNames.push(classNames[i]);
+			}
+		}
+		$(tempNames.join()).hide();
 		$('.rwanda').toggle();
 	})
 
 	$('#china').click(function() {
+		var tempNames = [];
+		var tempString = '.'+this.id;
+		for (var i=0;i<classNames.length;i++) {
+			if (classNames[i]!==tempString) {
+				tempNames.push(classNames[i]);
+			}
+		}
+		$(tempNames.join()).hide();
 		$('.china').toggle();
 	})
 
 	$('#indonesia').click(function() {
+		var tempNames = [];
+		var tempString = '.'+this.id;
+		for (var i=0;i<classNames.length;i++) {
+			if (classNames[i]!==tempString) {
+				tempNames.push(classNames[i]);
+			}
+		}
+		$(tempNames.join()).hide();
 		$('.indonesia').toggle();
 	})
 
 	$('#india').click(function() {
+		var tempNames = [];
+		var tempString = '.'+this.id;
+		for (var i=0;i<classNames.length;i++) {
+			if (classNames[i]!==tempString) {
+				tempNames.push(classNames[i]);
+			}
+		}
+		$(tempNames.join()).hide();
 		$('.india').toggle();
 	})
 
 	$('#pakistan').click(function() {
+		var tempNames = [];
+		var tempString = '.'+this.id;
+		for (var i=0;i<classNames.length;i++) {
+			if (classNames[i]!==tempString) {
+				tempNames.push(classNames[i]);
+			}
+		}
+		$(tempNames.join()).hide();
 		$('.pakistan').toggle();
 	})
 
