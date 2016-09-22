@@ -160,7 +160,13 @@ figure figcaption {
 button {
 	color: #03A9F4;
 }
+.blue-box {
+  border: 2px solid #1978c7;
+}
 
+.box-text {
+	font: 600 16px/24px 'Garamond', serif !important;
+}
 th#china { 
 	width: 110px; 
 }
